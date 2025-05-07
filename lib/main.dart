@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Habit Tracker',
+      title: 'My Habits Tracker',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: BlocProvider(
         create: (context) => HabitBloc(),
